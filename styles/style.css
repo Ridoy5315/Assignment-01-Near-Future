@@ -36,7 +36,6 @@
 }
 
 .nav-btn {
-
      border: none;
      background-color: transparent;
 }
@@ -95,3 +94,77 @@
 
 /* banner style end */
 /* header style end */
+/* shared heading */
+.heading3 {
+     color: rgb(13, 19, 33);
+     font-size: 30px;
+     font-weight: 700;
+}
+
+.heading4 {
+     color: rgba(13, 19, 33, 0.7);
+     font-size: 24px;
+     font-weight: 650;
+     margin-bottom: 20px;
+}
+
+/* Shared text style */
+.normal-test-style {
+     color: rgb(13, 19, 33);
+     font-size: 16px;
+     font-weight: 400;
+     opacity: 0.7;
+}
+
+/* Shared button style */
+.common-button-style {
+     color: rgb(13, 19, 33);
+     font-size: 18px;
+     font-weight: 500;
+     background-color: transparent;
+     padding: 6px 9px;
+     margin-top: 32px;
+}
+
+/* Main Style start*/
+/* First Section Style Start */
+.first-section {
+     margin: 74px 152px 90px;
+     padding: 70px 80px;
+     background-color: rgba(13, 19, 33, 0.02);
+     height: 1393px;
+}
+
+.first-section-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+.first-section-title{
+     margin-bottom: 24px;
+}
+.first-section-part{
+     margin-top: 48px;
+}
+.first-section-part-1, .first-section-part-3{
+     display: flex;
+     justify-content: space-between;
+     text-align: left;
+     background-color: white;
+     margin-bottom: 32px;
+     padding: 40px;
+     gap: 150px;
+}
+.first-section-part-2{
+     display: flex;
+     justify-content: space-between;
+     text-align: left;
+     background-color: white;
+     margin-bottom: 32px;
+     padding: 40px;
+     gap: 30px;
+}
+/* First Section Style End */
+/* Main Style end*/
