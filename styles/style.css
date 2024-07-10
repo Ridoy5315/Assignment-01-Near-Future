@@ -324,3 +324,27 @@
 
 /* fourth section style end */
 /* Main Style end*/
+
+/* Footer Section Style Start */
+footer {
+     border-radius: 10px;
+     background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-section {
+     padding: 20px 30px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.footer-section p {
+     font-size: 20px;
+     font-weight: 550;
+}
+
+.footer-image img {
+     margin-right: 10px;
+}
+
+/* Footer Section Style End */
