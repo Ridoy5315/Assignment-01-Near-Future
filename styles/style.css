@@ -10,6 +10,10 @@
      font-style: normal;
 }
 
+html{
+     scroll-behavior: smooth;
+}
+
 /* header style start */
 /* nav style start */
 .navigation-container {
@@ -19,7 +23,7 @@
 
 .navigation-container h4 {
      margin: 50px 0px 0px 150px;
-     color: rgb(13, 19, 33);
+     color: #0d1321;
      font-size: 28px;
      font-weight: 700;
 }
@@ -28,16 +32,16 @@
      margin: 38px 166px 0px 0px;
      text-decoration: none;
      color: black;
-     border: 1px solid rgb(50, 50, 50);
-     padding: 10px 24px 21px 24px;
-     font-size: 26px;
+     border: 1px solid #323232;
+     padding: 15px 22px 15px 22px;
      font-weight: 550;
      margin-bottom: 35px;
+     border-radius: 7px;
 }
-
 .nav-btn {
      border: none;
-     background-color: transparent;
+     background-color: white;
+     font-size: 17px;
 }
 
 /* nav style end */
@@ -62,7 +66,7 @@
 }
 
 .banner-title {
-     color: rgb(13, 19, 33);
+     color: #0d1321;
      font-size: 48px;
      font-weight: 800;
      line-height: 68px;
@@ -72,7 +76,7 @@
 }
 
 .banner-description {
-     color: rgb(13, 19, 33);
+     color: #0d1321;
      font-size: 16px;
      font-weight: 400;
      line-height: 26px;
@@ -82,41 +86,41 @@
      margin-top: 24px;
 }
 
-.baner-btn {
-     padding: 10px 15px;
+.banner-btn {
+     padding: 13px 15px;
      color: rgb(255, 255, 255);
      font-size: 18px;
      font-weight: 600;
      border-radius: 5px;
-     background: rgb(13, 19, 33);
-     margin-top: 32px;
+     background: #0d1321;
+     margin-top: 32px;text-decoration: none;
 }
 
 /* banner style end */
 /* header style end */
 /* shared heading */
 .heading3 {
-     color: rgb(13, 19, 33);
-     font-size: 30px;
+     color: #0d1321;
+     font-size: 32px;
      font-weight: 700;
 }
 
 .heading4 {
-     color: rgba(13, 19, 33, 0.7);
-     font-size: 24px;
+     color: #0d1321b3;
+     font-size: 26px;
      font-weight: 650;
      margin-bottom: 20px;
 }
 
 .heading4-second {
-     color: rgb(13, 19, 33);
-     font-size: 18px;
+     color: #0d1321;
+     font-size: 20px;
      font-weight: 700;
 }
 
 /* Shared text style */
 .normal-test-style {
-     color: rgb(13, 19, 33);
+     color: #0d1321;
      font-size: 16px;
      font-weight: 400;
      opacity: 0.7;
@@ -124,14 +128,17 @@
 
 /* Shared button style */
 .common-button-style {
-     color: rgb(13, 19, 33);
+     color: #0d1321;
      font-size: 18px;
      font-weight: 500;
-     background-color: transparent;
+     background-color: rgba(13, 19, 33, 0.02);
      padding: 6px 9px;
      margin-top: 32px;
+     cursor: pointer;
 }
-
+.common-button-style:hover{
+     background-color: white;
+}
 /* Main Style start*/
 /* First Section Style Start */
 .first-section {
@@ -167,7 +174,6 @@
      padding: 40px;
      gap: 150px;
 }
-
 .first-section-part-2 {
      display: flex;
      justify-content: space-between;
@@ -177,7 +183,9 @@
      padding: 40px;
      gap: 30px;
 }
-
+.first-section-part-1:hover, .first-section-part-2:hover, .first-section-part-3:hover{
+     background-color: rgba(13, 19, 33, 0.02);
+}
 /* First Section Style End */
 /* Second Section style Start */
 .second-section-inspiration {
@@ -199,7 +207,7 @@
 }
 
 .section-video {
-     border: 1px solid rgba(13, 19, 33, 0.2);
+     border: 1px solid #0d132133;
      border-radius: 16px;
      margin-top: 48px;
 }
@@ -227,26 +235,29 @@
      max-width: 300px;
      padding: 25px;
      border-radius: 10px;
-     background-color: rgba(255, 76, 30, 0.05);
+     background-color: #ff4c1e0d;
+}
+.third-section-html:hover{
+     background-color: rgba(255, 75, 30, 0.111);
 }
 
 .third-section-css {
      max-width: 300px;
      padding: 25px;
      border-radius: 10px;
-     background: rgba(0, 76, 232, 0.05);
+     background: #004ce80d;
 }
-
+.third-section-css:hover{
+     background-color: rgba(0, 77, 232, 0.079);
+}
 .third-section-js {
      max-width: 300px;
      padding: 25px;
      border-radius: 10px;
-     background: rgba(255, 223, 0, 0.05);
+     background: #ffdf000d;
 }
-
 .third-section-js:hover {
-     background: rgba(207, 16, 16, 0.881);
-     cursor: pointer;
+     background: rgba(255, 221, 0, 0.11);
 }
 
 .third-section-container img {
@@ -312,7 +323,7 @@
      width: 600px;
      padding: 12px;
      border-radius: 8px;
-     border: 1px solid rgba(13, 19, 33, 0.15);
+     border: none;
 }
 
 .submit-btn {
@@ -321,7 +332,9 @@
      border-radius: 8px;
      cursor: pointer;
 }
-
+.submit-btn:hover{
+     background-color: rgba(224, 224, 224, 0.949);
+}
 /* fourth section style end */
 /* Main Style end*/
 
