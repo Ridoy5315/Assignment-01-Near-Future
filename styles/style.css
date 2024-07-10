@@ -117,7 +117,7 @@
 /* Shared text style */
 .normal-test-style {
      color: rgb(13, 19, 33);
-     font-size: 13px;
+     font-size: 16px;
      font-weight: 400;
      opacity: 0.7;
 }
@@ -213,7 +213,7 @@
 /* Third Section Style Start */
 .third-section-current-target {
      height: 500px;
-     margin: 120px 152px 0px;
+     margin: 180px 152px 0px;
 }
 
 .third-section-container {
@@ -259,6 +259,7 @@
 
 .third-section-container p {
      margin-bottom: 20px;
+     text-align: justify;
 }
 
 .third-section-container a {
@@ -268,4 +269,58 @@
 }
 
 /* Third Section Style End */
+/* fourth section style start */
+.fourth-section-support {
+     margin: 80px 152px;
+     background-image: url("../assets/handshake.jpg");
+     background-color: rgba(0, 0, 0, 0.6);
+     background-blend-mode: overlay;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     padding: 64px 48px;
+     border-radius: 16px;
+}
+
+.fourth-section-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.fourth-section-content h3 {
+     color: rgb(255, 255, 255);
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 36px;
+     text-align: center;
+}
+
+.fourth-section-content p {
+     margin-top: 16px;
+     margin-bottom: 40px;
+     padding: 0px 20px;
+     color: white;
+     font-size: 16px;
+     font-weight: 400;
+     text-align: center;
+     opacity: 0.7;
+}
+
+.suggest-input {
+     width: 600px;
+     padding: 12px;
+     border-radius: 8px;
+     border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+.submit-btn {
+     width: 90px;
+     padding: 12px;
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+/* fourth section style end */
 /* Main Style end*/
